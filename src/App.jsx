@@ -1,5 +1,11 @@
+import Card from "./Card";
+
 const App = () => {
-  return <></>;
+  return (
+    <>
+      <Card />
+    </>
+  );
 };
 
 export default App;
