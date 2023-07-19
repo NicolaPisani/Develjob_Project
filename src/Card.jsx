@@ -17,14 +17,14 @@ const Card = () => {
   ];
   return (
     <>
-      <div>
+      <div className="absolute inset-x-1/2 translate-y-1/2">
         {user.map((user) => {
           return (
             <div className="relative cursor-pointer" key={user.id}>
               <h2 className="absolute z-20 inline-block bg-stone-50/50 p-2 top-5 left-1 font-semibold">
                 {user.city}
               </h2>
-              <div className="absolute left-0 top-0 z-10 ">
+              <div className="z-10 ">
                 <img
                   src={user.img}
                   alt={user.name}
